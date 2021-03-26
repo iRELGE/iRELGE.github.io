@@ -1,11 +1,14 @@
 
 
-const server = create();
-const router = _router("db.json");
-const middlewares = defaults();
-
+const jsonServer = require('json-server');
+const server = jsonServer.create();
+const router = jsonServer.router('db.json');
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 3200;
 
 server.use(middlewares);
+
+
 
 
 // Custom middleware to access POST methids.
@@ -27,9 +30,6 @@ server.use((req, res, next) => {
         next();
     }
 });
-
 server.use(router);
 
-createServer(options, server).listen(3000, function () {
-    console.log("json-server started on port " + 3000);
-});
+server.listen(port);
