@@ -1,14 +1,10 @@
 
-var fs = require('fs'),
-    https = require('https'),
+
 const server = create();
 const router = _router("db.json");
 const middlewares = defaults();
-var options = {
-    key: readFileSync('./ssl/key.pem'),
-    cert: readFileSync('./ssl/cert.pem')
-};
-server.use(bodyParser);
+
+
 server.use(middlewares);
 
 
@@ -34,6 +30,6 @@ server.use((req, res, next) => {
 
 server.use(router);
 
-createServer(options, server).listen(3002, function () {
-    console.log("json-server started on port " + 3002);
+createServer(options, server).listen(3000, function () {
+    console.log("json-server started on port " + 3000);
 });
