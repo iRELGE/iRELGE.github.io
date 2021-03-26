@@ -4,7 +4,9 @@
     "description": "fake server with fake database",
     "main": "server.js",
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "author": "Youssef Zidan",
     "license": "ISC",
