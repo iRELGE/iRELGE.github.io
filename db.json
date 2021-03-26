@@ -1,0 +1,32 @@
+{
+    "adherantList": [
+        {
+            "id": 1,
+            "adherant": "adherant1"
+        },
+        {
+            "id": 2,
+            "adherant": "adherant2"
+        },
+        {
+            "id": 3,
+            "adherant": "adherant3"
+        },
+        {
+            "id": 4,
+            "adherant": "adherant4"
+        },
+        {
+            "id": 5,
+            "adherant": "adherant5"
+        },
+        {
+            "id": 6,
+            "adherant": "adherant6"
+        },
+        {
+            "id": 7,
+            "adherant": "adherant7"
+        }
+    ]
+}
