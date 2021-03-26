@@ -2,31 +2,31 @@
     "adherantList": [
         {
             "id": 1,
-            "adherant": "adherant1"
+            "name": "adherant1"
         },
         {
             "id": 2,
-            "adherant": "adherant2"
+            "name": "adherant2"
         },
         {
             "id": 3,
-            "adherant": "adherant3"
+            "name": "adherant3"
         },
         {
             "id": 4,
-            "adherant": "adherant4"
+            "name": "adherant4"
         },
         {
             "id": 5,
-            "adherant": "adherant5"
+            "name": "adherant5"
         },
         {
             "id": 6,
-            "adherant": "adherant6"
+            "name": "adherant6"
         },
         {
             "id": 7,
-            "adherant": "adherant7"
+            "name": "adherant7"
         }
     ]
 }
